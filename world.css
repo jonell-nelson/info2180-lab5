@@ -1,26 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-:root
-{
-
-  --black: #1a202c;
-  --lightGrey: #eeeff3;
-  --grey: rgba(202, 196, 195, 0.482);
-  --lighterBlue: #598ae6;
-  --lilac: #ccccff;
-  --white: #ffffff;
-  --redOrange:#de3163;
+:root {
+    --black: #1a202c;
+    --lightPink: #f489a9;
+    --green: #40FF7D7B;
+    --lighterBlue: #598ae6;
+    --lilac: #ccccff;
+    --white: #ffffff;
+    --redOrange: #de3163;
+  }
   
-}
-
-body 
-{
-
+  body {
     margin: 0;
     font-size: 18px;
-    font-family: "Jost", sans-serif;
-
-}
+    font-family: "Times New Roman", Times, serif;
+  }
+  
 
 main
 {
@@ -37,7 +30,7 @@ main
 header 
 {
 
-  background-color: var(--darkBlue);
+  background-color: var(--green);
   color: white;
   padding: 50px;
   text-align: center; 
@@ -86,7 +79,7 @@ label
 #lookupcity
 {
 
-    background-color: var(--darkBlue);
+    background-color: var(--lightPink);
     margin-top: 15px;
 
 }
@@ -94,14 +87,14 @@ label
 #lookupcity:hover
 {
 
-    background-color: var(--mediumBlue);
+    background-color: var(--redOrange);
 
 }
 
 #lookupcntry
 {
 
-    background-color: var(--lighterBlue);
+    background-color: var(--lilac);
     margin-top: 15px;
 
 }
@@ -109,7 +102,7 @@ label
 #lookupcntry:hover
 {
 
-    background-color: var(--mediumBlue);
+    background-color: var(--redOrange);
 
 }
 
@@ -173,6 +166,6 @@ label
 .result-table tr:nth-child(odd) 
 {
 
-    background-color: var(--lightGrey);
+    background-color: var(--lighterBlue);
 
 }
